@@ -1,0 +1,1290 @@
+[
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "a7T7Pnehm1REEcuTceQgJw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "GUpJvZVvP49rwYEzXoiUMADhGdBmLk5NYEF/kcqAOIw="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "S8i8D5d4k3u1DUHbm6TWIg=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "1pULJh5gBe8/hlENLjNMdXXdeXwXlV67L1CjulOi2Ldydl21dGs7DmEMEvLuhl5LQf5vI31r/nQtFhAgFbSCrA=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "5eYxYJDTsd6O9YBJn88qgw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "vLFuOMruje28zrpwp/AUvrTvaswwMOkOE1zSG/WpAfI="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "7IxSA/DXtdqK8YRNm8suhw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "2es0f9+xyfXk3uct+qNE+kcX61Hg7HeqDoplL5tE5ek9R73IWP6CbbH6iqE4qAYzSYigtMeQACJJ8lPQYJnCqQ=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "HUPNWx1NbRqp0LvIsBtNsQ=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "Zjtmob/OES91pBWKKw3wdTSvM2yfAxs1VnOMY+YeovY="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "MxmucesfKdMJLWIFDVMq4A=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "iOZOfgMCgBMUNeQlIVJ0w0sP64SWg0K2dBrTj3MaQyyGbTiwZaAysHeJs7inPqpU0sEpiBiYUUiBbJPWEaDElg=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "5eYxYJDTsd6O9YBJn88qgw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "vLFuOMruje28zrpwp/AUvlpBDX7A/xOtg4NlXh+OpUs="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "7IxSA/DXtdqK8YRNm8suhw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "2es0f9+xyfXk3uct+qNE+monfAKliiPK+ucdbnzu1Dh8V2ueNzUa2N/iNywwpRx415344zAGvS2btnT9Zs2KrA=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF01234567",
+    "value": "hello",
+    "expect": "/11IFnqeVSdzg6bi73pHtw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF01234567",
+    "value": "1234567890123456",
+    "expect": "+YQ0qV5n4OdcPxhb/Vmzwbnjg7fdn3N5b7P3P13kZNg="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF01234567",
+    "value": "a",
+    "expect": "FXuJ5enBpf2iXr+wdT8yvg=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "MMiXi7V3497BVxSdnBwq6Mjbn+eEKSa2gbngzZF5OMp6oIziJRqgvzhh7cSWfVUCeu+0s+1JvcbwLyZTzShTkw=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "hello",
+    "expect": "zmUidLz/ZZaJ08QIlzX54A=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "1234567890123456",
+    "expect": "lzJ9LObCWaW76P4xrwrH3Z5veVEQ0YEmTeU2nHKs+u0="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "a",
+    "expect": "xw9BF9z7YZKN18AMkzH95A=="
+  },
+  {
+    "algo": "AES",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "8mgna/OdHb3j+KNs8lmXmQf+PGfnjSYIVgrGI87ff8tgIK13YvwPyNlawcNM56wzVn+aNR3q9YzG4G8wcdzjbA=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "hello",
+    "expect": "RdXFU28fL8bVBQrTRZl65w=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "1234567890123456",
+    "expect": "BqdZMJ0ZDp+GyCCBuxrRRKMY+6FkACJ/C4vIvD9VdOg="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "a",
+    "expect": "VkZhfC3y1WJnwUwByzkBpg=="
+  },
+  {
+    "algo": "AES",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "LwjMNRcJdb5XU+sDSMv9Jz3C5RP3U1RGIye8dTX21wwPm3s7j699+4algfFMNCpefS5HT3cxQV56P+bnqkpPGg=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "hello",
+    "expect": "zmUidLz/ZZaJ08QIlzX54A=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "1234567890123456",
+    "expect": "lzJ9LObCWaW76P4xrwrH3Uqi946wgU/JX2flfS1QIls="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "a",
+    "expect": "xw9BF9z7YZKN18AMkzH95A=="
+  },
+  {
+    "algo": "AES",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "8mgna/OdHb3j+KNs8lmXmXrEhvLV9H+uJgOdTU4wUyj/3VHa824LQRbXxG5e2fSAqYYDy4UtLVMK++bxdXJ6HA=="
+  },
+  {
+    "algo": "DES",
+    "mode": "CBC",
+    "key": "01234567",
+    "value": "hello",
+    "expect": "qWuit2s3cGA="
+  },
+  {
+    "algo": "DES",
+    "mode": "CBC",
+    "key": "01234567",
+    "value": "1234567890123456",
+    "expect": "XE0YRQVm5rT0p9GGH1Ul3rxkZ7dK3Zu4"
+  },
+  {
+    "algo": "DES",
+    "mode": "CBC",
+    "key": "01234567",
+    "value": "a",
+    "expect": "at1YO5RSnoM="
+  },
+  {
+    "algo": "DES",
+    "mode": "CBC",
+    "key": "01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "3qb2Hdx3x+yUP9qkxgrQdDkZFdHXDEgmLlxUYgcJrvqrbwk7a4A1vK0G/bHdfAaZ5ewjM4c+D88="
+  },
+  {
+    "algo": "DES",
+    "mode": "CFB",
+    "key": "01234567",
+    "value": "hello",
+    "expect": "rW+8RKnZmwM="
+  },
+  {
+    "algo": "DES",
+    "mode": "CFB",
+    "key": "01234567",
+    "value": "1234567890123456",
+    "expect": "9DjjHPPsrzho4xc9VS3J/3xh48l8Froh"
+  },
+  {
+    "algo": "DES",
+    "mode": "CFB",
+    "key": "01234567",
+    "value": "a",
+    "expect": "pA3XL8Hdnwc="
+  },
+  {
+    "algo": "DES",
+    "mode": "CFB",
+    "key": "01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "kWK5W+az6yC9pOkTOhMPwW/ah6K+t/In5z8O/JINGvZSP1PFA59T8y82ishMQjXxUbvtzrFqlxQ="
+  },
+  {
+    "algo": "DES",
+    "mode": "ECB",
+    "key": "01234567",
+    "value": "hello",
+    "expect": "EPWZJQJI3R4="
+  },
+  {
+    "algo": "DES",
+    "mode": "ECB",
+    "key": "01234567",
+    "value": "1234567890123456",
+    "expect": "yyLgxJpz4ODe6f1AUkl12Qi7XbazfAbX"
+  },
+  {
+    "algo": "DES",
+    "mode": "ECB",
+    "key": "01234567",
+    "value": "a",
+    "expect": "fB4OEsWBiNg="
+  },
+  {
+    "algo": "DES",
+    "mode": "ECB",
+    "key": "01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "hGfoDnnw/fpzL8F0QLyUfYi1jk5h5B8GUeHGlxdS9n19fZT1NsXkTwA/Zf0FEo8SYLRMg320Uh0="
+  },
+  {
+    "algo": "DES",
+    "mode": "OFB",
+    "key": "01234567",
+    "value": "hello",
+    "expect": "rW+8RKnZmwM="
+  },
+  {
+    "algo": "DES",
+    "mode": "OFB",
+    "key": "01234567",
+    "value": "1234567890123456",
+    "expect": "9DjjHPPsrzhtfAWWNOmDV7nn7YzqCUne"
+  },
+  {
+    "algo": "DES",
+    "mode": "OFB",
+    "key": "01234567",
+    "value": "a",
+    "expect": "pA3XL8Hdnwc="
+  },
+  {
+    "algo": "DES",
+    "mode": "OFB",
+    "key": "01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "kWK5W+az6yA1bFjLabrTE5GZhOiXZGGhBYPuJi3ved7b/oTAIvLDeadQZs02Xh/85w+V/3kwlkw="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CBC",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "hello",
+    "expect": "HGCeCMjIrd8="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CBC",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "1234567890123456",
+    "expect": "O5QwOspsVFK3M8VwIzwyseuhuJ2zssQo"
+  },
+  {
+    "algo": "DESede",
+    "mode": "CBC",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "a",
+    "expect": "/SKLYOmZXGg="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CBC",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "hlp6cvS/c8wpPDwcpMCnc6EMuwsGLEeL/IkZrY9VVCeTOXNQOLA9kosuYsOfLAaU6PEgAHJ5nm8="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "hello",
+    "expect": "cbrowPpWEwA="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "1234567890123456",
+    "expect": "KO23mKBjJzseQXdvtS6zV2oBWhp2Bv40"
+  },
+  {
+    "algo": "DESede",
+    "mode": "CFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "a",
+    "expect": "eNiDq5JSFwQ="
+  },
+  {
+    "algo": "DESede",
+    "mode": "CFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "Tbft37U8YyP7l9jXbY9R+Bz5U0abZVranq+amxDQ3vbcvYbLlMuceYv6RRvlQcsALgAPQ8hbUTQ="
+  },
+  {
+    "algo": "DESede",
+    "mode": "ECB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "hello",
+    "expect": "VzkuSveh4oI="
+  },
+  {
+    "algo": "DESede",
+    "mode": "ECB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "1234567890123456",
+    "expect": "xCyGnx2ZzcoBYIBYgoirxStuHV1KvzCa"
+  },
+  {
+    "algo": "DESede",
+    "mode": "ECB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "a",
+    "expect": "JRnYXUPiJds="
+  },
+  {
+    "algo": "DESede",
+    "mode": "ECB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "ZWtRqu8NKvYBPhmQ2m5/EciUrlNxWCsNBq92wk1KzkFif2L/mzGuKLbePHlcQv4kaS4xSIFXOZE="
+  },
+  {
+    "algo": "DESede",
+    "mode": "OFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "hello",
+    "expect": "cbrowPpWEwA="
+  },
+  {
+    "algo": "DESede",
+    "mode": "OFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "1234567890123456",
+    "expect": "KO23mKBjJzuM6MqUKdYtWOY79hXLTe/a"
+  },
+  {
+    "algo": "DESede",
+    "mode": "OFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "a",
+    "expect": "eNiDq5JSFwQ="
+  },
+  {
+    "algo": "DESede",
+    "mode": "OFB",
+    "key": "AAAAAAAABBBBBBBBCCCCCCCC",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "Tbft37U8YyPU+JfJdIV9HM5Fn3G2IMelCxNO6dpKMbW27txQvi4WJ+7VwteXE4k0X1qWCbRaMZQ="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "/E5Siiqsq6s="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "ngZ3/M9ObPq/bF8wKWaaY39VUjiB7Nnl"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "ZCiMe2hJk5I="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "JXap6OJFeUics6aFxomRg17+fZt4rqLZllJLeY7nqunqQCh5lEh/ruBfolains1J/WvTMbw3N3o="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "vz8YjNBCqDlhjmUZdhBPJSm/A1FDH3SVbAgCLA5YFpglZ9Q3nhu4kA=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "iBIGpeU5gpo="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "0UVZ/b8MtqGVZt93caItEro6jmTPWI3W"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "gXBtzo09hp4="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "tB8DuqpT8rlXYDFZHUiCXaWVwRDtZXdr9V0o1MonU3tBAefiHVtYZnop/aEcqMsLb2DI8j0dAJ4="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "lRkDquVe5KOjy3yFJCs2gAmvY9cKGv7++VPfA+yX+4O1iH8XLy83kA=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "9GII+8yZtcM="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "2IaSUereNhlrSG/8HSg5P+j9lN1t1o8F"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "GfAhsW3ZYPs="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "x4fgELI0lpwIY89qpMevmHWtdZkAMwbQ5NiitfLwLZ1qJyuspDB/Hz6+0qEPt9gI2OTKlbSXKq0="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "K5yatN4DN5NXXASFEuOvkvt405YxndOO0CTzahZ5K6Xo/ZTdbdaPBQ=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "iBIGpeU5gpo="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "0UVZ/b8MtqH6tl79TSsts54wORBC5B6P"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "gXBtzo09hp4="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "tB8DuqpT8rmipgOgEHh997ZOUHQ/iTbwFEwWHR36SY3Ge67BcmGWkJE4fRgPpdeoPrVlARx6Oe4="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "lRkDquVe5KPj7qxmEnN3peH7h2omiDZh6p2YocJignCrAIbvWhrn9Q=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "wXEcg2T81AQ="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "PkkXHLIO+e4pVtujNR6aVmdWNzCO6Hmy"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "a",
+    "expect": "OvI09aPTTvo="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "xlfVSkvfvsp2bZMXR9CmCxCgpddCDyfx9vUJroZi8V0f6Svl53A8KEnJ63fvcZuxWzxMjSGD9+U="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "WYvrNaKJK6nv307Fq77BUF83jSZ+4oNwMaYn5CRsLwiRwSX9hYNOCw=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "0lXNwY+FJkA="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "iwKSmdWwEnvxjxh0NKqoy/fTnqlqZ7fC"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "2zemqueBIkQ="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "7ljI3sDvVmNdfq+b3Gr3JDps/P7XZg1bv+0SKbk/lTXsHL/aubPsM4P+dnaRq2/KtqHl6Bl3LLg="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "z17Izo/iQHk45fOND/3IfNnvhzi/L9iIj77EEWoOu+Y7ci6qkhlhWw=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "E2FpTW8qbrc="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "yKveuLzHN9jcJ6umZcFz2iy/LwZfQSgh"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "0bWHJvoWBIo="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "lXmSnE9/ZjAxa6l3ihOKz/s06uhT40zu0ZcIQY+bWz/nRTATlIoPiLjjaDAf+VMb35aB+0N/m8I="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "qJTAFLr2btoo/uO3t08BCgEf0YRnnMmB1lBgtvi+Mu0svy8GX0EoIQ=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "0lXNwY+FJkA="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "iwKSmdWwEnt+7PThIcLZxj++/19LNM9T"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "2zemqueBIkQ="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "7ljI3sDvVmMm/Km8fJGJghfAljs2WecszotDsH96dn4Fmn4egHxbvvaauGJ1BaERYKKXf1hjliY="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "z17Izo/iQHlntAZ6fpqD0EB1QSUvWOe9MFrNDKDivYNo4VYwqAcq2w=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "cykIKyyeZps="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "lEiWueAvrD8kwgS72irKDcQ84R+LDqGT"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "O6HhG6rZAx0="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "STMJtPMmp28MBN3YffDjLWKMBGSj9oJisnL5J+H+rbsFLgXnQ37sU7T3i7f9ZIhE2ihrNJ7U3Lo="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "YXnUYMbPunTRPf4UZcwNjFLGmc/EMIfWIbahKYT9ZZ3Fwu5LFMLr9w=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "JScsfhnDH+I="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "fHBzJkP2K9lynF95S0y7WF6ToJLcoTvj"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "LEVHFXHHG+Y="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "GSopYVapb8GA+47oWBzrETqC4Vg7acPQZKD69g5L3WGro2+S3JVpgSoCZiuaKcfS/zsrdk7TVPM="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "OCwpcRmkedsVO2dUNsd3mc4uW9hHYjfKRbppa0hKJFQIozfbakYpkQ=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "ncPDqTIN1Tw="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "PtSqAIu85rpiGRVJFMpApIki4EFEUcvK"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "x3WNqEj7l4U="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "+trYxL/Ir+yM5yUxYmJf2uybNddzY2zd4EYufHtLCD1dVcX+3Gdbu+Jztxhu/EbrmUAbCUQ7lc8="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "d9aln7NMXjHBDMweGh0HiX4WFrRsiViXOXx5XlVmZmmJIuBBRFHLyg=="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "JScsfhnDH+I="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "fHBzJkP2K9kenIEWU2c2Y6IgcXm1xbsA"
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "LEVHFXHHG+Y="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "GSopYVapb8FGjNxLDjRmJ4peGB3IqJN/oNzxE/S2pr00u6Q9zeGdhcR8heoedo2xgmfju5luwkQ="
+  },
+  {
+    "algo": "Blowfish",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "OCwpcRmkedsHxHONDD9sdd3rzwPRqZPuXg1/rysubUBZwIwT5Zrs4A=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "opJTi4znG1w="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "5tjrelz5zmnbdUSjY9/IpAZkmCbqNsGb"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "rV3GSNuRisc="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "xgxFqvyFyuYFUXX1M3oWn9pscYwO0vOezU/3n6D15r7EvpOmmvdjJhkvK7/z55CPCfy99U4ITyU="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "uv8zZfj4B9m7USnOQnobuQDuWLL2Yz82wrYOZyGWrStCTxOEtM6nVQ=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "lLWDeKlUpPk="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "zeLcIPNhkMIsp0cZIkTl9dBiof2HHEff"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "ndfoE8FQoP0="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "qLiGZ+Y+1NoBji2DepU/opE8VPhiWX301VP0tqeJ8MHMNomiftqPeLN0nNV78wULEssoL9Fu1aU="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "ib6Gd6kzwsAYRzJBwMFWGtoklhdZRi4Y051VHS81WjjJJhr/dLS9uA=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "tYo/EqCgIiQ="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "Aw27oe0QcOhPO5I9vcVE1ritQP7WQKe/"
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "MVFHhHrNR4s="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "ED/luNWxSgBkrgMALuyfhWdzgCkQdu5IXO9MWkc6x6eL+5kevwFZMa3SskV2do01b5w3KLZI7qc="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "O9Jlp3ssOo/hQHZh+BKB+qDS4Axv56B6tYy5qxI+dzi4rUD+1kCnvw=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "hello",
+    "expect": "lLWDeKlUpPk="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "1234567890123456",
+    "expect": "zeLcIPNhkMKICrGJ03jQsi5LFSPkFs1R"
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "a",
+    "expect": "ndfoE8FQoP0="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "qLiGZ+Y+1NrQGuzUjiuA9gY1fEeZe+Uu2j+r6wRzxcptU6SgeqVuKLLF9R6JM8IQcq96RXKN3V0="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "ib6Gd6kzwsCRUkMSjCCKpFGAq1mAeuW/JO4lV9vrDjcAKIyOUt4fTQ=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "Bc0rwcczV+A="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "MVuBDXAwlEYWdfP21Cjr5Ai1GH6tNH1m"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "a",
+    "expect": "fs4US+VPVTc="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "pbMq0fdogiXiY1z6cxu68rk7VY1eTq1SxWImuz758GNxNfilZ+bXNKDRX+O22aCY2QPMXhFr5K4="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "iuhav9I/g82M8D1sHo6lH5f48vP6auzuzYVQAdthhZ+DEFSJk5k14A=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "3oiF8eDAhNY="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "h9/aqbr1sO2u64ITcNsi8OBy5ezCF2mE"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "1+rumojEgNI="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "4oWA7q+q9PWXhU9JSv6MKUipr9HSOPsar1fihqCf/dOqaE39NdeGOzkSv5KxsQYf5AhP3ySgas8="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "w4OA/uCn4u8o4ngHkcWvuc7Er/YaxadISjhnyS8Ny3WqQcJGEEKbMQ=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "PyPop+8+fz4="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "T/nNEf8n89Vpo+UqV08VqbqOcX/siUqM"
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "a82XpdXGXGg="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "oPHGZZF/7Ivo7v6iMEG04Sm6ZWVsrHOnPFIfPkZO5AhUQsBP/23lo1C3SgmZ4aIZwCwmZYG6HW4="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "FNIArr2bDLnRHesCq5yPISF29Yh4pKy4260hu4XIzYu6jnF/7IlKjA=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "hello",
+    "expect": "3oiF8eDAhNY="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "1234567890123456",
+    "expect": "h9/aqbr1sO1drZghvs6NN0WtISTOGwvt"
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "a",
+    "expect": "1+rumojEgNI="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "4oWA7q+q9PUFvcV8453dc23TSECzdiOS7wYsDyBEKsQf3vUO7Iw1zLabkkaf1Rhj1T1fhDO4wMQ="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "abcde",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "w4OA/uCn4u9E9Wq64ZbXITpmn16qdyMDEdeis//c4Tlypd0gxPdEqQ=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "ZSOFCzRbJbM="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "bUxrrL10o/zLAZVVouXWt41hLHkg/t9l"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "4c+mQycqjMU="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "fCmfPf0duvPKvotOK3al4eY2wqMi9t8QWN9POtOiO5wEq55M4hehWChBFbXVR/+0zvx7jFSklYc="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CBC",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "6DF6iWR9CXyV1PgoQWSfbIxzAExGgjivsazYTTyN8nuJHUHBPT8JYQ=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "5x4hQTRVOVs="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "vkl+GW5gDWAl/7QFiAACJDWVOm1lrKcc"
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "7nxKKlxRPV8="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "2xMkXns/SXglfLMANjdY0Sx0otYT0txg/F2s02cWcYaRGn74pY2bzhFwU6CBB1o66PkmzAx/eSA="
+  },
+  {
+    "algo": "RC2",
+    "mode": "CFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "+hUkTjQyX2Kf5ajT+xx9UdGwkhhGjnX7Q35N0y5Epp3QC/xcj5s3Fw=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "Ov8yxBVph18="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "uzXlq7vK2VIynWXy9Eg2t1PCV+Bv1MSC"
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "bMohewRqfFQ="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "FdJCbo5t7NIK5UxFEMbw63oiEvx9cDLZvxQqHOY06Us44bQNWGzpt0C3s2Ubxz0YjDBVY90HZZ4="
+  },
+  {
+    "algo": "RC2",
+    "mode": "ECB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "8iY0GH3hlDvOKbbcmn98iYA8G/gYH+XKyJCAv+ZWhJ9Twlfgb9TEgg=="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "hello",
+    "expect": "5x4hQTRVOVs="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "1234567890123456",
+    "expect": "vkl+GW5gDWDiNamG8Dsmq6/i0BOEl2gv"
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "a",
+    "expect": "7nxKKlxRPV8="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "This is a longer value with spaces & symbols! =+/",
+    "expect": "2xMkXns/SXi6JfTbrWh274ecuXf5+kBQE1A4PoGURDw0FXGrEuqH7uQUKY94wIUAc8cH0ellx/o="
+  },
+  {
+    "algo": "RC2",
+    "mode": "OFB",
+    "key": "0123456789ABCDEF0123456789ABCDE01234567",
+    "value": "unicode: h\u00e9llo w\u00f6rld \u65e5\u672c\u8a9e",
+    "expect": "+hUkTjQyX2L7bVsdr2N8vdApbmng+0DB7YG2gl4Mj8FZblmFOpH2iw=="
+  }
+]

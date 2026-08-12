@@ -1,0 +1,6 @@
+# MuleSoft's proprietary CLI jar - kept locally for reference/testing only,
+# not ours to redistribute.
+secure-properties-tool-j17.jar
+
+node_modules/
+.DS_Store

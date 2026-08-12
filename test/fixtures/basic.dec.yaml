@@ -1,0 +1,10 @@
+simple:
+  value: hello
+db:
+  password: secret123 # a comment here
+  quoted: "quoted value"
+  url: "http://example.com/path?a=1&b=2"
+# full line comment
+empty:
+top: value1
+another: "value with "escaped" quotes"

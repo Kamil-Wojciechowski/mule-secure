@@ -1,0 +1,10 @@
+simple:
+  value: ![a7T7Pnehm1REEcuTceQgJw==]
+db:
+  password: ![RNrayPONFKODxQ4oKvaMYw==] # a comment here
+  quoted: "![Bczgh/umWwS3IBFz401yFw==]"
+  url: "![wf4B5nKpnUupq+MS1SGm39Ep+MyDbk8lo+c4Moe9kgg=]"
+# full line comment
+empty:
+top: ![ivr1pvPYgwwFaF0xj/aOLQ==]
+another: ![PT5zaQyeFDxzZhZltaUyliAatR2zkJCH7xJjMKVt/qE=]

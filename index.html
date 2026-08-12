@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mule Secure Properties Tool (Web)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Mule Secure Properties Tool</h1>
+    <p class="subtitle">A browser-based port of MuleSoft's <code>secure-properties-tool</code> CLI.</p>
+
+    <div class="notice">
+      <p><strong>Runs entirely in your browser.</strong> Your key and value are never sent anywhere &mdash;
+      there is no server, no analytics, no network calls after the page loads. You can disconnect from
+      the internet and it will keep working.</p>
+      <p>This is an unofficial, independently-verified reimplementation and is not affiliated with or
+      endorsed by MuleSoft or Salesforce. It supports the CLI tool's <code>string</code> and
+      <code>file</code> modes (not <code>file-level</code>). See the
+      <a href="https://github.com/Kamil-Wojciechowski/mule-secure#readme">README</a> for how its output
+      was validated against the real jar.</p>
+    </div>
+
+    <div id="bootError" class="notice warn" style="display:none"></div>
+
+    <form id="form" class="panel">
+      <fieldset>
+        <legend>Operation</legend>
+        <div class="radio-row">
+          <label><input type="radio" name="operation" value="encrypt" checked /> Encrypt</label>
+          <label><input type="radio" name="operation" value="decrypt" /> Decrypt</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Input</legend>
+        <div class="radio-row">
+          <label><input type="radio" name="inputType" value="string" checked /> Single value</label>
+          <label><input type="radio" name="inputType" value="file" /> Properties/YAML file</label>
+        </div>
+      </fieldset>
+
+      <div class="grid-2" id="fileFormatRow" style="display:none">
+        <label class="field-label">
+          <span>File format</span>
+          <select id="fileFormat">
+            <option value="properties" selected>.properties</option>
+            <option value="yaml">.yaml</option>
+          </select>
+        </label>
+        <label class="field-label">
+          <span>Load a file from disk</span>
+          <input type="file" id="fileLoader" accept=".properties,.yaml,.yml,text/plain" />
+        </label>
+      </div>
+
+      <div class="grid-2">
+        <label class="field-label">
+          <span>Algorithm</span>
+          <select id="algorithm">
+            <option value="AES" selected>AES (default)</option>
+            <option value="Blowfish">Blowfish</option>
+            <option value="DES">DES</option>
+            <option value="DESede">DESede (3DES)</option>
+            <option value="RC2">RC2</option>
+          </select>
+        </label>
+        <label class="field-label">
+          <span>Mode</span>
+          <select id="mode">
+            <option value="CBC" selected>CBC (default)</option>
+            <option value="CFB">CFB</option>
+            <option value="ECB">ECB</option>
+            <option value="OFB">OFB</option>
+          </select>
+        </label>
+      </div>
+
+      <label class="field-label" for="key">
+        <span>Key</span>
+        <div class="key-row">
+          <input type="password" id="key" autocomplete="off" spellcheck="false" />
+          <button type="button" id="toggleKey">Show</button>
+        </div>
+        <div class="hint" id="keyHint"></div>
+      </label>
+
+      <label class="checkbox-row" id="useRandomIvRow">
+        <input type="checkbox" id="useRandomIv" />
+        <span>Use a random IV (matches the <code>--use-random-iv</code> CLI flag; the IV is generated per
+        encryption and stored alongside the ciphertext, so decrypting also needs this checked)</span>
+      </label>
+
+      <label class="field-label" for="value">
+        <span id="valueLabel">Value to encrypt</span>
+        <textarea id="value" spellcheck="false"></textarea>
+      </label>
+
+      <label class="checkbox-row" id="wrapOutputRow">
+        <input type="checkbox" id="wrapOutput" />
+        <span>Wrap output as <code>![...]</code> (the convention Mule's secure-properties config extension
+        looks for in property/YAML files)</span>
+      </label>
+
+      <button type="submit" class="primary" id="run">Encrypt</button>
+      <div class="error" id="error"></div>
+
+      <label class="field-label" for="output" style="margin-top: 1.1rem;">
+        <span>Result</span>
+      </label>
+      <div class="output-row">
+        <textarea id="output" readonly spellcheck="false"></textarea>
+        <div class="output-buttons">
+          <button type="button" id="copy">Copy</button>
+          <button type="button" id="download" style="display:none">Download</button>
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <a href="https://github.com/Kamil-Wojciechowski/mule-secure">Source on GitHub</a>
+    </footer>
+  </main>
+
+  <script src="vendor/forge.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
